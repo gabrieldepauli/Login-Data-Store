@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "br.edu.ifsp.dmo1.logindatastore"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "br.edu.ifsp.dmo1.logindatastore"

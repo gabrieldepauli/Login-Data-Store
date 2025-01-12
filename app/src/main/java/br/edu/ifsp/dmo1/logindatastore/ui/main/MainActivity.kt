@@ -12,7 +12,7 @@ import br.edu.ifsp.dmo1.logindatastore.ui.logged.LoggedActivity
 class MainActivity : AppCompatActivity() {
     private lateinit var viewModel: MainViewModel
     private lateinit var binding: ActivityMainBinding
-    private var flag = false
+    private var flag = false // o atributo flag serve para controlar se a navegação para a LoggedActivity evitando ela seja chamada várias vezes
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -82,4 +82,5 @@ class MainActivity : AppCompatActivity() {
             finish()
         }
     }
+
 }
